@@ -1,0 +1,5 @@
+default:
+  worker_process: 5
+  error_log:  logs/error.log
+  pid:        logs/nginx.pid
+  worker_rlimit_nofile: 8192
